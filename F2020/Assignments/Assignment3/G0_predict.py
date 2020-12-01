@@ -19,6 +19,7 @@ def _load_model(filename='G#_model.pkl'):
        and returns it to generate predictions.
        ---
        Input: <str> filename, the path to the trained model.
+       Output: <model obj>, the deserialized model
     """
     # TODO: Change the default filename to your group id
     return pkl.load(open(filename, "rb"))
