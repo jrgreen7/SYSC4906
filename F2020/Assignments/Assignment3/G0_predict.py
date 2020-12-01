@@ -13,7 +13,7 @@ from DeepPurpose.utils import *
 # TODO: Include any other librariies you might need. 
 #       Comment the version used (e.g. use 'pip freeze' command)
 
-def _load_model(filename='G#_model.pkl')
+def _load_model(filename='G#_model.pkl'):
     """ _load_model
        Helper function that loads the trained model, unpickles it,
        and returns it to generate predictions.
